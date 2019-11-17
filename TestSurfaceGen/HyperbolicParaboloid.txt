@@ -1,0 +1,6 @@
+
+tmp1 = (dz-real(2)*cx*dx*px*sx*sx-real(2)*cy*dy*py*sy*sy+real(2)*cx*dx*sx*x0+real(2)*cy*dy*sy*y0)
+t1 = (real(1)/(real(2)*(-cx*dx*dx*sx*sx-cy*dy*dy*sy*sy)))*(-dz+real(2)*cx*dx*px*sx*sx+real(2)*cy*dy*py*sy*sy-real(2)*cx*dx*sx*x0-real(2)*cy*dy*sy*y0+std::sqrt(tmp1*tmp1-real(4)*(-cx*dx*dx*sx*sx-cy*dy*dy*sy*sy)*(pz-cx*px*px*sx*sx-cy*py*py*sy*sy+real(2)*cx*px*sx*x0-cx*x0*x0+real(2)*cy*py*sy*y0-cy*y0*y0)))
+
+tmp2 = (dz-real(2)*cx*dx*px*sx*sx-real(2)*cy*dy*py*sy*sy+real(2)*cx*dx*sx*x0+real(2)*cy*dy*sy*y0)
+t2 = (real(1)/(real(2)*(-cx*dx*dx*sx*sx-cy*dy*dy*sy*sy)))*(-dz+real(2)*cx*dx*px*sx*sx+real(2)*cy*dy*py*sy*sy-real(2)*cx*dx*sx*x0-real(2)*cy*dy*sy*y0+std::sqrt(tmp2*tmp2-real(4)*(-cx*dx*dx*sx*sx-cy*dy*dy*sy*sy)*(pz-cx*px*px*sx*sx-cy*py*py*sy*sy+real(2)*cx*px*sx*x0-cx*x0*x0+real(2)*cy*py*sy*y0-cy*y0*y0)))

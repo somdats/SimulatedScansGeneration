@@ -1,0 +1,6 @@
+﻿cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+cl : Command line warning D9002: ignoring unknown option '/Zc:twoPhase-'
+  main.cpp
+  Generating code
+  Finished generating code
+  TestSurfaceGen.vcxproj -> C:\WorkSpace\TestSurfaceGen\build\vs2015_testapp\x64\Release\TestSurfaceGen.exe
